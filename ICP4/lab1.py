@@ -49,7 +49,6 @@
 #4 Question4
  # two sets: Set A contains all students select "python" and set B contains all students select "Web Application"
 #5 Question 6
-# Dayu Wang (dwk89@mail.umkc.edu)
 
 
 class Flight:
@@ -222,11 +221,11 @@ def main():
     f2 = Flight(2354, 'Chicago, IL', 'Tampa, FL', '06/26/2018 01:30 pm', '06/20/2018 04:40 pm')
     f3 = Flight(6666, 'San Francisco, CA', 'Houston, TX', '07/04/2018 09:00 pm', '07/04/2018 11:50 pm')
 
-    p1 = Passenger('Fei', 'Wu', '06/21/1990')
-    p2 = Passenger('Yunlong', 'Liu', '06/19/1993')
+    p1 = Passenger('David', 'VanHorn', '06/01/1991')
+    p2 = Passenger('John', 'Christ', '07/02/1992')
 
-    a1 = Employee('Ting', 'xia', '10/15/1990', 23606)
-    a2 = Employee('Emily', 'Chen', '05/13/1989', 23832)
+    a1 = Employee('Susan', 'Mapple', '08/03/1993', 23336)
+    a2 = Employee('Emily', 'Flynn', '09/04/1994', 23832)
 
     a2.book_air_ticket(p1, f1)
     a1.book_air_ticket(p2, f2)
