@@ -48,7 +48,74 @@
 
 #4 Question4
  # two sets: Set A contains all students select "python" and set B contains all students select "Web Application"
-#5 Question 6
+import random as rand
+from people import Person
+
+first_names = ["Thomas", "John", "Mike", "Liz", "Joan", "Hattie", "Emma"]
+last_names = ["Smith", "Jones", "Brown", "Miller", "Tran", "Cook", "Scott"]
+python = []
+web = []
+
+
+def random_string(input: list) -> str:
+    num = rand.randint(0, len(input) - 1)
+    return input[num]
+
+
+def generate_random_students(fname: list, lname: list, number_of_students: int) -> list:
+    """creates a list of persons with random names"""
+    lst = []
+    for _ in range(0, number_of_students):
+        lst.append(Person(random_string(fname), random_string(lname)))
+    return lst
+
+
+def random_partion(class1: list, class2: list, students: list):
+    """randomly places a student in non one or both class list"""
+    for student in students:
+        num = rand.randint(0, 4)
+        if num == 0:
+            pass
+        elif num == 1:
+            class1.append(student)
+
+        elif num == 2:
+            class2.append(student)
+
+        elif num == 3:
+            class1.append(student)
+            class2.append(student)
+    return
+
+
+def print_student(students):
+    """ prints the students name and its memory location"""
+    for student in students:
+        print(student.get_full_name() + " " + str(student))  #
+
+
+student_list = generate_random_students(first_names, last_names, 10)
+
+random_partion(python, web, student_list)
+# turns all list into a set
+python_set = set(python)
+web_set = set(web)
+student_set = set(student_list)
+# finds the students in both classes
+common_set = python_set.intersection(web_set)
+# finds the student  who have no classes
+no_class = student_set.difference(student_set.difference(python_set), web_set)
+
+print()
+print("common classes")
+print()
+print_student(common_set)
+print()
+
+print("No class")
+print()
+print_student(no_class)
+print()
 
 
 class Flight:
@@ -221,11 +288,11 @@ def main():
     f2 = Flight(2354, 'Chicago, IL', 'Tampa, FL', '06/26/2018 01:30 pm', '06/20/2018 04:40 pm')
     f3 = Flight(6666, 'San Francisco, CA', 'Houston, TX', '07/04/2018 09:00 pm', '07/04/2018 11:50 pm')
 
-    p1 = Passenger('David', 'VanHorn', '06/01/1991')
-    p2 = Passenger('John', 'Christ', '07/02/1992')
+    p1 = Passenger('Fei', 'Wu', '06/21/1990')
+    p2 = Passenger('Yunlong', 'Liu', '06/19/1993')
 
-    a1 = Employee('Susan', 'Mapple', '08/03/1993', 23336)
-    a2 = Employee('Emily', 'Flynn', '09/04/1994', 23832)
+    a1 = Employee('Ting', 'xia', '10/15/1990', 23606)
+    a2 = Employee('Emily', 'Chen', '05/13/1989', 23832)
 
     a2.book_air_ticket(p1, f1)
     a1.book_air_ticket(p2, f2)
