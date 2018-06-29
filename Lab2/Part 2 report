@@ -1,0 +1,10 @@
+John Widner
+Lab 2 part 2
+
+Output from code with a training/ testing ratio of 80/20:
+The RDF kernel applied gives a score of: 0.9866666666666667
+The Linear kernel applied gives a score of: 0.9666666666666667
+
+It appears that the RDF kernel gives more accurate results. 
+This is because the RDF uses curved lines to group the data points giving a better fit.  
+I don’t think that there can be an improvement in this. A score of 98.6% is high enough.

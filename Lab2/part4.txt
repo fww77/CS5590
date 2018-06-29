@@ -1,0 +1,5 @@
+                   
+With Knn whether you want a larger K or a smaller K depends on the dataset, the type of data and the sample size of the data. 
+In the cases I tried, when K was small it led to overfitting as outliers tended to have more influence than they should and, 
+when K was large it led to underfitting as outliers were suppressed more than they should have been. With the digit dataset from SKlearn 
+the accuracy of Knn peaked when K was around 6 and then steadily decreased as K increased.

@@ -1,0 +1,46 @@
+"""
+John Widner
+cs-559
+"""
+
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+from sklearn import datasets, svm
+from sklearn.datasets import make_classification
+from sklearn.svm import SVC
+from sklearn.svm import LinearSVC
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from sklearn.model_selection import train_test_split, cross_val_score
+import pandas
+
+
+# Load the Data Set
+data_set = datasets.load_iris()
+# Assign X and y variables
+X = data_set.data
+y = data_set.target
+# Split the data 80/20 for training and testing
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+rdf_clf = SVC()
+rdf_clf.fit(X, y,)  # Applying RDF Kernel
+print("The RDF kernel applied gives a score of: ")
+print(rdf_clf.score(X, y))
+
+linear_clf = LinearSVC()
+linear_clf.fit(X, y)  # Applying Linear Kernel
+print("The Linear kernel applied gives a score of: ")
+print(linear_clf.score(X, y))
+
+
+"""
+Output from code with a training/ testing ratio of 80/20:
+The RDF kernel applied gives a score of: 0.9866666666666667
+The Linear kernel applied gives a score of: 0.9666666666666667
+
+It appears that the RDF kernel gives more accurate results. 
+This is because the RDF uses curved lines to group the data points giving a better fit.  
+I don’t think that there can be an improvement in this. A score of 98.6% is high enough.
+"""
