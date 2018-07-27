@@ -1,0 +1,132 @@
+Output from newdata1.txt
+
+
+# Parameters
+learning_rate = 0.01
+training_iters = 10000
+display_step = 1000
+n_input = 8
+
+# number of units in RNN cell
+n_hidden = 512
+
+Iter= 1000, Average Loss= 6.188216, Average Accuracy= 7.90%
+['a', 'young', 'mouse', 'got', 'up', 'and', 'said', 'he'] - [had] vs [that]
+Iter= 2000, Average Loss= 3.180308, Average Accuracy= 36.50%
+['in', 'the', 'sly', 'and', 'treacherous', 'manner', 'in', 'which'] - [the] vs [the]
+Iter= 3000, Average Loss= 2.054170, Average Accuracy= 56.90%
+['the', 'cat.', 'by', 'this', 'means', 'we', 'should', 'always'] - [know] vs [know]
+Iter= 4000, Average Loss= 1.653320, Average Accuracy= 66.50%
+['one', 'another', 'and', 'nobody', 'spoke.', 'then', 'the', 'old'] - [mouse] vs [and]
+Iter= 5000, Average Loss= 1.789643, Average Accuracy= 69.90%
+['outwit', 'their', 'common', 'enemy,', 'the', 'cat.', 'some', 'said'] - [this,] vs [this,]
+Iter= 6000, Average Loss= 1.615135, Average Accuracy= 71.90%
+['a', 'young', 'mouse', 'got', 'up', 'and', 'said', 'he'] - [had] vs [is]
+Iter= 7000, Average Loss= 1.937841, Average Accuracy= 69.90%
+['that', 'our', 'chief', 'danger', 'consists', 'in', 'the', 'sly'] - [and] vs [this]
+Iter= 8000, Average Loss= 2.576982, Average Accuracy= 60.70%
+['signal', 'of', 'her', 'approach,', 'we', 'could', 'easily', 'escape'] - [from] vs [from]
+Iter= 9000, Average Loss= 1.670844, Average Accuracy= 72.90%
+['therefore,', 'to', 'propose', 'that', 'a', 'small', 'bell', 'be'] - [procured,] vs [procured,]
+Iter= 10000, Average Loss= 2.980024, Average Accuracy= 56.00%
+['was', 'about,', 'and', 'could', 'easily', 'retire', 'while', 'she'] - [was] vs [was]
+Optimization Finished!
+Elapsed time:  11.022500212987264 min
+
+
+# Parameters
+learning_rate = 0.001
+training_iters = 10000
+display_step = 1000
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 512
+
+Iter= 1000, Average Loss= 9.700958, Average Accuracy= 5.00%
+['firm', 'and', 'called'] - [for] vs [of]
+Iter= 2000, Average Loss= 8.708036, Average Accuracy= 4.60%
+['which', 'culminated', 'with'] - [Lord] vs [the]
+Iter= 3000, Average Loss= 8.379447, Average Accuracy= 6.00%
+['their', 'parents', 'as'] - [a] vs [the]
+Iter= 4000, Average Loss= 8.496695, Average Accuracy= 8.00%
+['law', 'rights', '[acquired'] - [through] vs [the]
+Iter= 5000, Average Loss= 8.352341, Average Accuracy= 5.60%
+['of', 'the', 'positioning'] - [of] vs [that]
+Iter= 6000, Average Loss= 8.440748, Average Accuracy= 5.80%
+['actions', 'in', 'Syria'] - [and] vs [of]
+Iter= 7000, Average Loss= 8.396644, Average Accuracy= 7.00%
+['during', 'its', 'transition'] - [from] vs [the]
+Iter= 8000, Average Loss= 8.444103, Average Accuracy= 4.80%
+['the', 'Westminster', 'government'] - [cannot] vs [the]
+Iter= 9000, Average Loss= 8.435323, Average Accuracy= 5.50%
+['“robust', 'protections', 'for'] - [the] vs [the]
+Iter= 10000, Average Loss= 8.231846, Average Accuracy= 7.20%
+['on', 'with', 'talk'] - [of] vs [the]
+Optimization Finished!
+Elapsed time:  13.501233009497325 min
+
+
+# Parameters
+learning_rate = 0.01
+training_iters = 10000
+display_step = 1000
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 1024
+
+Iter= 1000, Average Loss= 10.997627, Average Accuracy= 4.00%
+['against', 'Shiner', 'and'] - [his] vs [the]
+Iter= 2000, Average Loss= 8.650936, Average Accuracy= 3.90%
+['on', 'the', 'royal'] - [prerogative,] vs [the]
+Iter= 3000, Average Loss= 8.439772, Average Accuracy= 5.60%
+['consider', 'children', 'working'] - [alongside] vs [and]
+Iter= 4000, Average Loss= 8.549127, Average Accuracy= 5.20%
+['nullify', 'legislation.', 'These'] - [EU] vs [the]
+Iter= 5000, Average Loss= 8.587046, Average Accuracy= 4.30%
+['a', 'ledger', 'of'] - [checks] vs [list]
+Iter= 6000, Average Loss= 8.763729, Average Accuracy= 4.00%
+['not', 'ignore', '“aggressive”'] - [Iranian] vs [the]
+Iter= 7000, Average Loss= 8.755809, Average Accuracy= 5.70%
+['going', 'to', 'ensure'] - [stability] vs [the]
+Iter= 8000, Average Loss= 8.786437, Average Accuracy= 3.40%
+['under', 'the', 'Sewel'] - [convention] vs [the]
+Iter= 9000, Average Loss= 9.006609, Average Accuracy= 3.10%
+['successfully', 'fighting', 'corruption'] - [required] vs [the]
+Iter= 10000, Average Loss= 8.927660, Average Accuracy= 5.20%
+['in', 'the', 'country.Eadie'] - [blustered] vs [the]
+Optimization Finished!
+Elapsed time:  34.81048990488053 min
+
+# Parameters
+learning_rate = 0.01
+training_iters = 10000
+display_step = 1000
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 256
+
+Iter= 1000, Average Loss= 9.165741, Average Accuracy= 4.30%
+['against', 'Shiner', 'and'] - [his] vs [the]
+Iter= 2000, Average Loss= 8.523006, Average Accuracy= 5.30%
+['on', 'the', 'royal'] - [prerogative,] vs [the]
+Iter= 3000, Average Loss= 8.268127, Average Accuracy= 6.00%
+['consider', 'children', 'working'] - [alongside] vs [and]
+Iter= 4000, Average Loss= 8.509437, Average Accuracy= 6.20%
+['nullify', 'legislation.', 'These'] - [EU] vs [the]
+Iter= 5000, Average Loss= 8.496884, Average Accuracy= 4.30%
+['a', 'ledger', 'of'] - [checks] vs [director]
+Iter= 6000, Average Loss= 8.740786, Average Accuracy= 4.60%
+['not', 'ignore', '“aggressive”'] - [Iranian] vs [the]
+Iter= 7000, Average Loss= 8.699032, Average Accuracy= 6.10%
+['going', 'to', 'ensure'] - [stability] vs [the]
+Iter= 8000, Average Loss= 8.982532, Average Accuracy= 3.70%
+['under', 'the', 'Sewel'] - [convention] vs [the]
+Iter= 9000, Average Loss= 9.355777, Average Accuracy= 2.60%
+['successfully', 'fighting', 'corruption'] - [required] vs [the]
+Iter= 10000, Average Loss= 8.963332, Average Accuracy= 5.00%
+['in', 'the', 'country.Eadie'] - [blustered] vs [the]
+Optimization Finished!
+Elapsed time:  6.206479883193969 min

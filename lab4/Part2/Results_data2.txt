@@ -1,0 +1,100 @@
+Output from newdata2.txt
+
+# Parameters
+learning_rate = 0.001
+training_iters = 10000
+display_step = 1000
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 512
+
+
+Iter= 1000, Average Loss= 14.730188, Average Accuracy= 1.80%
+['recent', 'years', 'who'] - [has] vs [this]
+Iter= 2000, Average Loss= 10.440778, Average Accuracy= 3.50%
+['At', 'the', 'same'] - [time,] vs [to]
+Iter= 3000, Average Loss= 9.901530, Average Accuracy= 2.90%
+['treatment', '–', 'to'] - [treat] vs [be]
+Iter= 4000, Average Loss= 9.708041, Average Accuracy= 3.80%
+['for', 'months.', 'I'] - [have] vs [the]
+Iter= 5000, Average Loss= 9.686393, Average Accuracy= 5.20%
+['allegations.', 'The', 'highly'] - [experienced] vs [to]
+Iter= 6000, Average Loss= 9.360385, Average Accuracy= 5.00%
+['expressed', 'skepticism', 'that'] - [a] vs [the]
+Iter= 7000, Average Loss= 9.242084, Average Accuracy= 6.10%
+['instead', 'is', 'turn'] - [the] vs [of]
+Iter= 8000, Average Loss= 9.370790, Average Accuracy= 4.80%
+['political', 'objective', 'of'] - [managing] vs [be]
+Iter= 9000, Average Loss= 9.303523, Average Accuracy= 5.40%
+['it', 'emerged', 'that'] - [another] vs [the]
+Iter= 10000, Average Loss= 9.015647, Average Accuracy= 4.80%
+['to', 'use', 'the'] - [royal] vs [not]
+Optimization Finished!
+Elapsed time:  10.512311470508575 min
+
+
+# Parameters
+learning_rate = 0.01
+training_iters = 10000
+display_step = 1000
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 512
+
+Iter= 1000, Average Loss= 11.856371, Average Accuracy= 2.60%
+['official', 'in', 'recent'] - [years] vs [not]
+Iter= 2000, Average Loss= 9.068083, Average Accuracy= 4.60%
+['negotiation', 'table.', 'At'] - [the] vs [a]
+Iter= 3000, Average Loss= 9.118541, Average Accuracy= 4.20%
+['at', 'intervention', 'treatment'] - [–] vs [the]
+Iter= 4000, Average Loss= 9.549593, Average Accuracy= 3.00%
+['been', 'seen', 'for'] - [months.] vs [a]
+Iter= 5000, Average Loss= 9.698121, Average Accuracy= 4.40%
+['of', 'the', 'allegations.'] - [The] vs [in]
+Iter= 6000, Average Loss= 9.981507, Average Accuracy= 3.40%
+['Castor,', 'has', 'expressed'] - [skepticism] vs [with]
+Iter= 7000, Average Loss= 9.989378, Average Accuracy= 4.20%
+['should', 'do', 'instead'] - [is] vs [to]
+Iter= 8000, Average Loss= 9.622212, Average Accuracy= 4.40%
+['the', 'short-term', 'political'] - [objective] vs [the]
+Iter= 9000, Average Loss= 9.841859, Average Accuracy= 2.90%
+['comes', 'after', 'it'] - [emerged] vs [group]
+Iter= 10000, Average Loss= 10.295837, Average Accuracy= 3.10%
+['the', 'government', 'to'] - [use] vs [it]
+Optimization Finished!
+Elapsed time:  10.444798930486042 min
+
+
+# Parameters
+learning_rate = 0.01
+training_iters = 10000
+display_step = 1000
+n_input = 3
+
+# number of units in RNN cell
+n_hidden = 1024
+
+Iter= 1000, Average Loss= 15.592277, Average Accuracy= 1.90%
+['who', 'has', 'stressed'] - [more] vs [it]
+Iter= 2000, Average Loss= 9.809932, Average Accuracy= 4.70%
+['same', 'time,', 'it'] - [would] vs [EU]
+Iter= 3000, Average Loss= 10.317368, Average Accuracy= 3.10%
+['to', 'treat', 'stalking'] - [behaviour] vs [–]
+Iter= 4000, Average Loss= 10.500413, Average Accuracy= 2.40%
+['I', 'have', 'given'] - [up] vs [to]
+Iter= 5000, Average Loss= 10.669772, Average Accuracy= 3.30%
+['highly', 'experienced', 'QC'] - [had] vs [The]
+Iter= 6000, Average Loss= 11.031693, Average Accuracy= 2.80%
+['that', 'a', 'jury'] - [would] vs [country”.]
+Iter= 7000, Average Loss= 10.958141, Average Accuracy= 3.00%
+['turn', 'the', 'case'] - [back] vs [of]
+Iter= 8000, Average Loss= 10.414271, Average Accuracy= 5.10%
+['of', 'managing', 'within'] - [the] vs [few]
+Iter= 9000, Average Loss= 10.531542, Average Accuracy= 2.80%
+['that', 'another', 'legal'] - [challenge] vs [miles]
+Iter= 10000, Average Loss= 11.035806, Average Accuracy= 3.80%
+['the', 'royal', 'prerogative.'] - [Once] vs [of]
+Optimization Finished!
+Elapsed time:  22.44625835021337 min
